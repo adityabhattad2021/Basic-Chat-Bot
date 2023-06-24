@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: #222222;
+  color: #fff;
+}
+
+
+/* Style the scroll bar track */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Change this to your desired track color */
+}
+
+/* Style the scroll bar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Change this to your desired thumb color */
+  border-radius: 5px; /* Change this to your desired thumb border radius */
+}
+
+/* Make the scroll bar thinner */
+::-webkit-scrollbar {
+  width: 8px; /* Change this to your desired width */
+}
+
+/* Make the scroll bar smoother */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Change this to your desired hover color */
+}
+
+/* Hide the scroll bar when not hovering */
+::-webkit-scrollbar-thumb:vertical {
+  transition: background-color 0.3s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  transition: background-color 0.3s ease-in-out;
+}
